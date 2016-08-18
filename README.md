@@ -1,7 +1,7 @@
-# PagerSlidingTabStrip
+# WaveProgressView
 Android-模拟水波纹进度条
 #原理分析与实现
-<http://blog.csdn.net/ta893115871/article/details/44724953/>
+<http://blog.csdn.net/ta893115871/article/details/52245815/>
 # 效果图
 <img src="1.gif"/>
 # 属性
@@ -28,4 +28,11 @@ maxProgress 最大的进度
         wpv:radius="70dp"
         wpv:radius_color="#7F6B1AB3" />
 ```
-# Java  使用
+#  使用
+```java
+ ObjectAnimator objectAnimator0 = ObjectAnimator.ofFloat(waveProgressView_0, "progress", 0f, 100f);
+        objectAnimator0.setDuration(3300);
+        objectAnimator0.setInterpolator(new LinearInterpolator());
+        objectAnimator0.start();
+```
+ 
