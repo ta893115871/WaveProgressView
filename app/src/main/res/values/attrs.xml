@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveProgressView">
+        <attr name="radius" format="dimension|reference" />
+        <attr name="radius_color" format="color|reference" />
+        <attr name="progress_text_color" format="color|reference" />
+        <attr name="progress_text_size" format="dimension|reference" />
+        <attr name="progress_color" format="color|reference" />
+        <attr name="progress" format="float" />
+        <attr name="maxProgress" format="float" />
+    </declare-styleable>
+
+
+</resources>

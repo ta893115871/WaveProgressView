@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="WaveProgressViewDefault">
+        <item name="radius">55dp</item>
+        <item name="progress_text_color">#fff</item>
+        <item name="progress_text_size">20sp</item>
+        <item name="progress_color">#C215AB30</item>
+        <item name="radius_color">#FF734B58</item>
+        <item name="progress">0</item>
+        <item name="maxProgress">100</item>
+    </style>
+</resources>
