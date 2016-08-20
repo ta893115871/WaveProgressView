@@ -35,4 +35,6 @@ maxProgress 最大的进度
         objectAnimator0.setInterpolator(new LinearInterpolator());
         objectAnimator0.start();
 ```
+#更新进度
+public void setProgress(float progress)
  
